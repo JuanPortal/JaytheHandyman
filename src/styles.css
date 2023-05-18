@@ -14,7 +14,6 @@ header {
 }
 
 header .logo {
-    /* background-color: #616161; */
     width: 10%;
     height: 90%;
     display: flex;
@@ -27,7 +26,6 @@ header .logo img {
 }
 
 header .tabs {
-    /* background-color: #616161; */
     width: 45%;
     height: 90%;
     display: flex;
@@ -36,7 +34,7 @@ header .tabs {
 }
 
 header .tabs p {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     transition: .2s ease-in-out;
 }
 
@@ -48,4 +46,7 @@ header .tabs p:hover {
 section {
     height: 80vh;
     background-color: #252525;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
