@@ -22,7 +22,7 @@ export const Header = () => {
     <header>
       <h1>Jay the Handyman</h1>
       <Link className='logo' to='/'>
-        <img src="/public/assets/logo.png" alt="Jay the Handyman's logo" title="Jay the Handyman's logo" />
+        <img src="/public/assets/logo - Copy.png" alt="Jay the Handyman's logo" title="Jay the Handyman's logo" />
       </Link>
       <div className="tabs">
         <Links />
