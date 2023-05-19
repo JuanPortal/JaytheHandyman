@@ -8,7 +8,6 @@ export const Header = () => {
   const [hamburgerVisibility, setHamburgerVisibility] = useState('invisible')
   const [hamburgerIcon, setHamburgerIcon] = useState(faBars)
   const handleHamburgerIcon = () => {
-    // hamburgerIcon === faBars ? setHamburgerIcon(faXmark) : setHamburgerIcon(faBars)
     if (hamburgerIcon === faBars) {
       setHamburgerIcon(faXmark)
       setHamburgerVisibility('visible')

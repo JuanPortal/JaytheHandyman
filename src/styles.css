@@ -35,11 +35,12 @@ header .logo img {
 }
 
 header .tabs {
-    width: 45%;
-    height: 90%;
+    /* width: 45%; */
+    height: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
+    gap: 30px;
 }
 
 header .tabs .route {
@@ -60,17 +61,6 @@ header .hamburger-menu{
     display: none;
 }
 
-.hamburger-menu-links.visible {
-    top: 20vh;
-    transition: .2s ease-in-out;
-}
-
-.hamburger-menu-links.invisible {
-    display: none;
-    top: -100%;
-    transition: .2s ease-in-out;
-}
-
 .hamburger-menu-links {
     position: absolute;
     top: 20vh;
@@ -85,6 +75,18 @@ header .hamburger-menu{
 
 .hamburger-menu-links>* {
     color: #fff;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+.hamburger-menu-links.visible {
+    top: 20vh;
+    transition: .2s ease-in-out;
+}
+
+.hamburger-menu-links.invisible {
+    top: -100%;
+    transition: .2s ease-in-out;
 }
 
 /* SECTIONS */
@@ -133,29 +135,84 @@ section {
         display: block;
         font-size: 2.4rem;
     }
+
+    .hamburger-menu-links>*{
+        font-size: 1.1rem;
+    }
 }
 
 /* Phones */
 @media screen and (min-width: 401px) and (max-width: 576px) {
-    
+    header .logo {
+        width: 40%;
+    }
+
+    header .tabs {
+        display: none;
+    }
+
+    header .hamburger-menu {
+        display: block;
+        font-size: 2.4rem;
+    }
 }
   
 /* Tablets */
-@media screen and (min-width: 577px) and (max-width: 768px) {
+@media screen and (min-width: 577px) and (max-width: 800px) {
+    header .logo {
+        width: 40%;
+    }
 
+    header .tabs {
+        display: none;
+    }
+
+    header .hamburger-menu {
+        display: block;
+        font-size: 2.4rem;
+    }
 }
 
-/* Medium devices (laptops, desktops) */
-@media screen and (min-width: 769px) and (max-width: 992px) {
+/* Landscape devices (laptops, desktops) */
+@media screen and (min-width: 801px) and (max-width: 992px) {
+    header .tabs .route {
+        font-size: 1rem;
+    }
 
+    .hamburger-menu-links {
+        display: none;
+    }
 }
 
 /* Large devices (large laptops, desktops) */
 @media screen and (min-width: 993px) and (max-width: 1200px) {
+    header .tabs .route {
+        font-size: 1.3rem;
+    }
 
+    .hamburger-menu-links {
+        display: none;
+    }
+}
+
+/* Larger devices (large laptops, desktops) */
+@media screen and (min-width: 1201px) and (max-width: 1920px) {
+    header .tabs .route {
+        font-size: 1.5rem;
+    }
+
+    .hamburger-menu-links {
+        display: none;
+    }
 }
 
 /* Extra large devices (larger desktops, wide screens) */
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1921px) {
+    header .tabs .route {
+        font-size: 1.8rem;
+    }
 
+    .hamburger-menu-links {
+        display: none;
+    }
 }
