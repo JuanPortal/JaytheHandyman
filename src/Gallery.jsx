@@ -3,7 +3,7 @@ import React from 'react'
 export const Gallery = () => {
   return (
     <section>
-      Gallery
+      Our work & Gallery
     </section>
   )
 }

@@ -42,6 +42,7 @@ header .tabs .route {
     font-weight: 400;
     font-size: 1.5rem;
     transition: .2s ease-in-out;
+    text-decoration: underline;
 }
 
 header .tabs .route:hover {
