@@ -1,7 +1,18 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { faBars } from '@fortawesome/free-solid-svg-icons'
 
-export const Links = () => {
+export const Links = ({setHamburgerVisibility, setHamburgerIcon}) => {
+  {
+    const linkList = document.querySelectorAll('.route')
+    linkList.forEach(link => {
+      link.addEventListener('click', () => {
+        setHamburgerVisibility('invisible')
+        setHamburgerIcon(faBars)
+      })
+    })
+  }
+
   return (
     <>
         <Link className='route' to='/'>Home</Link>

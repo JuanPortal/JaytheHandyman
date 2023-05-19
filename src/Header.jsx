@@ -32,7 +32,10 @@ export const Header = () => {
       </div>
     </header>
     <div className={`hamburger-menu-links ${hamburgerVisibility}`}>
-      <Links />
+      <Links 
+        setHamburgerVisibility={setHamburgerVisibility}
+        setHamburgerIcon={setHamburgerIcon}
+      />
     </div>
     </>
   )
