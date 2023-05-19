@@ -25,6 +25,7 @@ header .logo {
 
 header .logo img {
     max-width: 100%;
+    max-height: 100%;
 }
 
 header .tabs {
@@ -57,4 +58,22 @@ section {
     justify-content: center;
     align-items: center;
     color: #fff;
+}
+
+/* CONTACT */
+
+.contact {
+    gap: 40px;
+}
+
+.contact a {
+    color: #fff;
+}
+
+.contact a:nth-child(1) {
+    font-size: 45px;
+}
+
+.contact a:nth-child(2), .contact a:nth-child(3){
+    font-size: 60px;
 }
