@@ -4,6 +4,8 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* HEADER */
+
 header {
     height: 20vh;
     background-color: #dfdfdf;
@@ -33,15 +35,20 @@ header .tabs {
     align-items: center;
 }
 
-header .tabs p {
+header .tabs .route {
+    color: #000;
+    text-decoration: none;
+    font-weight: 400;
     font-size: 1.5rem;
     transition: .2s ease-in-out;
 }
 
-header .tabs p:hover {
+header .tabs .route:hover {
     font-weight: 600;
     cursor: pointer;
 }
+
+/* SECTIONS */
 
 section {
     height: 80vh;
@@ -49,4 +56,5 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
