@@ -15,12 +15,17 @@ header {
     padding: 0 30px;
 }
 
+header h1 {
+    display: none;
+}
+
 header .logo {
     width: 10%;
     height: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
 }
 
 header .logo img {

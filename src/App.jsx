@@ -7,12 +7,11 @@ import { Gallery } from './Gallery'
 import { Contact } from './Contact'
 import { Routes, Route } from 'react-router-dom'
 
-
 export const App = () => {
   return (
     <>
-    <Header />
-    <Routes>
+      <Header />
+      <Routes>
         <Route path='/' element={<Home />}/>
         <Route path='/about' element={<About />}/>
         <Route path='/services' element={<Pricing />}/>
@@ -20,7 +19,7 @@ export const App = () => {
         <Route path='/ourwork' element={<Gallery />}/>
         <Route path='/gallery' element={<Gallery />}/>
         <Route path='/contact' element={<Contact />}/>
-    </Routes>
+      </Routes>
     </>
   )
 }
