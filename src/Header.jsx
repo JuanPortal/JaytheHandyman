@@ -5,7 +5,7 @@ export const Header = () => {
   return (
     <header>
         <div class="logo">
-            <img src="../assets/logo.png" alt="" />
+            <img src="../assets/logo.png" alt="Jay the Handyman's logo" title="Jay the Handyman's logo"/>
         </div>
         <div class="tabs">
             <Link className='route' to='/'>Home</Link>
