@@ -35,7 +35,6 @@ header .logo img {
 }
 
 header .tabs {
-    /* width: 45%; */
     height: 100%;
     display: flex;
     justify-content: flex-end;
@@ -197,6 +196,10 @@ section {
 
 /* Larger devices (large laptops, desktops) */
 @media screen and (min-width: 1201px) and (max-width: 1920px) {
+    header .tabs {
+        gap: 35px;
+    }
+
     header .tabs .route {
         font-size: 1.5rem;
     }
@@ -208,6 +211,10 @@ section {
 
 /* Extra large devices (larger desktops, wide screens) */
 @media screen and (min-width: 1921px) {
+    header .tabs {
+        gap: 40px;
+    }
+
     header .tabs .route {
         font-size: 1.8rem;
     }
