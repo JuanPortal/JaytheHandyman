@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons'
 import { Links } from './Links'
+import { logoImg } from '../public/assets/logo.png'
 
 export const Header = () => {
   const [hamburgerVisibility, setHamburgerVisibility] = useState('invisible')
@@ -22,7 +23,7 @@ export const Header = () => {
     <header>
       <h1>Jay the Handyman</h1>
       <Link className='logo' to='/'>
-        <img src="\public\assets\logo.png" alt="Jay the Handyman's logo" title="Jay the Handyman's logo" />
+        <img src={logoImg} alt="Jay the Handyman's logo" title="Jay the Handyman's logo" />
       </Link>
       <div className="tabs">
         <Links />
