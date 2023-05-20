@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons'
 import { Links } from './Links'
-import logoImg from '../public/assets/logo.png'
+import logoImg from '../assets/logo.png'
 
 export const Header = () => {
   const [hamburgerVisibility, setHamburgerVisibility] = useState('invisible')
