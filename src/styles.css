@@ -163,10 +163,6 @@ section {
     color: #fff;
 }
 
-.gallery-images img {
-    /* width: 400px; */
-}
-
 @media screen and (max-width: 600px) {
     .carousel-component {
         width: 95%;
