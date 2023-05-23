@@ -9,7 +9,7 @@
 /* HEADER */
 
 header {
-    height: 20vh;
+    height: 10vh;
     background-color: #dfdfdf;
     display: flex;
     justify-content: space-between;
@@ -48,7 +48,6 @@ header .tabs .route {
     text-decoration: none;
     font-weight: 400;
     font-size: 1.5rem;
-    transition: .2s ease-in-out;
     position: relative;
 }
 
@@ -104,29 +103,64 @@ header .hamburger-menu{
 
 section {
     width: 100%;
-    height: 80vh;
-    background-color: #252525;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #fff;
 }
 
-/* GALLERY */
+.section-container {
+    background-color: #000000d3;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.3rem;
+}
+
+/* HOME */
+
+.home {
+    background: url('/assets/bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ABOUT US */
+
+.about {
+    background: url('/assets/bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* SERVICES & PRICING */
+
+.pricing {
+    background: url('/assets/bg3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* OUR WORK & GALLERY */
 
 .gallery {
-    /* background-color: #dfdfdf; */
-    background-color: #fff;
+    background: url('/assets/bg4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .carousel-component {
-    width: 100%;
+    width: 50%;
     height: 100%;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: #fff;
 }
 
 .gallery-images img {
@@ -136,19 +170,22 @@ section {
 /* CONTACT */
 
 .contact {
-    gap: 40px;
+    background: url('/assets/bg5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.contact a {
+.contact .section-container {
+    gap: 30px;
+}
+
+.contact .section-container a {
     color: #fff;
+    font-size: 60px;
 }
 
 .contact a:nth-child(1) {
     font-size: 45px;
-}
-
-.contact a:nth-child(2), .contact a:nth-child(3){
-    font-size: 60px;
 }
 
 /* RESPONSIVE */

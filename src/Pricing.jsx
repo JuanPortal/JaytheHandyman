@@ -3,7 +3,9 @@ import React from 'react'
 export const Pricing = () => {
   return (
     <section className='pricing'>
-      Services & Pricing
+      <div className="section-container">
+        Services & Pricing
+      </div>
     </section>
   )
 }
