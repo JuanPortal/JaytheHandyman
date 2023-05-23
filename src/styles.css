@@ -79,7 +79,7 @@ header .hamburger-menu{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #252525b9;
+    background-color: #000000d3;
     z-index: 999999;
 }
 
@@ -161,6 +161,14 @@ section {
     justify-content: center;
     align-items: center;
     color: #fff;
+}
+
+.carousel .thumb {
+    border-color: #000000d3;
+}
+
+.carousel .thumb.selected {
+    border-color: #fff;
 }
 
 @media screen and (max-width: 600px) {
