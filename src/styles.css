@@ -186,16 +186,39 @@ section {
 }
 
 .contact .section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.map {
+    width: max(40%, 550px);
+    height: 70%;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 30px;
 }
 
-.contact .section-container a {
+.socials a {
     color: #fff;
     font-size: 60px;
 }
 
-.contact a:nth-child(1) {
+.socials a:nth-child(1) {
     font-size: 45px;
+}
+
+@media screen and (max-width: 560px) {
+    .map {
+        width: 90%;
+        height: 40%;
+    }
 }
 
 /* RESPONSIVE */
