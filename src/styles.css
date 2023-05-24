@@ -128,6 +128,23 @@ section {
     background-size: cover;
 }
 
+.home .section-container {
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.home .section-container div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home .section-container div img {
+    width: 400px;
+    border-radius: 15px;
+}
+
 /* ABOUT US */
 
 .about {
