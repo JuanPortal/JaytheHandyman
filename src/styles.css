@@ -124,7 +124,7 @@ section {
 
 .home {
     /* background: url('/assets/bg1.jpg'); */
-    background: url('https://firebasestorage.googleapis.com/v0/b/jay-the-handyman.appspot.com/o/bg1.jpg?alt=media&token=ac7aa7e9-bd80-4a35-959f-01db2d0728a8');
+    background: url('https://firebasestorage.googleapis.com/v0/b/jay-the-handyman.appspot.com/o/bg1.webp?alt=media&token=b8ec34b6-3018-429d-8b89-c99941307bc6');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -149,7 +149,7 @@ section {
 /* ABOUT US */
 
 .about {
-    background: url('/assets/bg2.jpg');
+    background: url('https://firebasestorage.googleapis.com/v0/b/jay-the-handyman.appspot.com/o/bg2.webp?alt=media&token=0a1f2108-17f6-4870-8ed6-68a8746383f8');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -157,7 +157,7 @@ section {
 /* SERVICES & PRICING */
 
 .pricing {
-    background: url('/assets/bg3.jpg');
+    background: url('https://firebasestorage.googleapis.com/v0/b/jay-the-handyman.appspot.com/o/bg3.webp?alt=media&token=ce903632-1882-43b5-b89d-424ba12f21d0');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -165,7 +165,7 @@ section {
 /* OUR WORK & GALLERY */
 
 .gallery {
-    background: url('/assets/bg4.jpg');
+    background: url('https://firebasestorage.googleapis.com/v0/b/jay-the-handyman.appspot.com/o/bg4.webp?alt=media&token=6ef194b3-ec61-4753-a15f-89da136d5174');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -198,7 +198,7 @@ section {
 /* CONTACT */
 
 .contact {
-    background: url('/assets/bg5.jpg');
+    background: url('https://firebasestorage.googleapis.com/v0/b/jay-the-handyman.appspot.com/o/bg5.webp?alt=media&token=5c18e367-9c1a-439d-a145-45dcc08dcf14');
     background-repeat: no-repeat;
     background-size: cover;
 }

@@ -23,7 +23,7 @@ export const Header = () => {
     <header>
       <h1>Jay the Handyman</h1>
       <Link className='logo' to='/'>
-        <img src={logoImg} alt="Jay the Handyman's logo" title="Jay the Handyman's logo" />
+        <img src="https://firebasestorage.googleapis.com/v0/b/jay-the-handyman.appspot.com/o/logo.webp?alt=media&token=04c111fa-be3e-4442-b3cb-b9f6c778cfe2" alt="Jay the Handyman's logo" title="Jay the Handyman's logo" />
       </Link>
       <div className="tabs">
         <Links />
