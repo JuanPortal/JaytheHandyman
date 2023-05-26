@@ -123,7 +123,8 @@ section {
 /* HOME */
 
 .home {
-    background: url('/assets/bg1.jpg');
+    /* background: url('/assets/bg1.jpg'); */
+    background: url('https://firebasestorage.googleapis.com/v0/b/jay-the-handyman.appspot.com/o/bg1.jpg?alt=media&token=ac7aa7e9-bd80-4a35-959f-01db2d0728a8');
     background-repeat: no-repeat;
     background-size: cover;
 }
